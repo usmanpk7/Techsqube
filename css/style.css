@@ -1,0 +1,667 @@
+
+
+/* -------------------------------- Mian Header ---------------------- */
+
+*{
+    box-sizing: border-box;
+}
+ .navbar-brand img{    
+    margin-top: 17px;
+    width: 50%;
+   margin-left: 65px;
+    
+}
+
+.nav-link {
+    margin-top: 12px;
+    text-align: center;
+    margin-left: 50px;
+    padding-right: 6px;
+    font-size: 16px;
+    color:#000000;
+    font-weight:400;
+}
+ 
+.nav-item a:hover{
+    color: #3ea8e6;
+}
+
+.dropdown-menu{
+    background: #0394fc;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.current{
+    color: #3ea8e6;
+}
+
+.btn{
+   border: #3ea8e6;
+    margin-left: 150px;
+   left: 100px;
+    color:white;
+    float: right;
+    width: 170px;
+    height: 6.5vh;
+    background-color: #5BC0DE;
+}
+
+.navbar-toggler{
+    width: 13%;
+    background-color: #417Cbe;
+}
+.navbar-toggler-icon{
+  color:white;
+  width:80%;
+}
+
+/* -------------------------------- Slider ---------------------- */
+
+
+.slider{
+    margin-top: 14px;
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 550px;
+    background-size: 100%;
+    overflow: hidden;
+      
+}
+.carousel-caption {
+   
+    color: #b7b7b7;
+    font-size: 18px;
+    font-weight: 300;
+    top:180px;
+}
+
+.slider-heading{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    animation: backInLeft;
+    animation-duration: 3s;
+    
+}
+
+.slider-para{
+    top: 100px;
+    color:white;
+    text-align: center;
+    animation:bounceInRight ;
+    animation-duration: 3s;
+}
+
+.btn-slider{
+    background-color: #0394fc;
+    color:white;
+    border: #0394fc;
+    width: 160px;
+    height: 5vh;
+    border-radius: 4px;
+    top:150px;
+    left:350px;
+    animation:fadeInUp;
+    animation-duration: 3s;
+}
+
+
+
+/* -------------------------------- About US ---------------------- */
+
+.about-section{
+    margin-top: 120px;
+    display: inline-flex;
+}
+.heading{
+    display: inline;
+    margin-left: 70px;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.about-para{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 35px;
+    font-size: 18px;
+    color:#6A6A6A;
+}
+
+.side-image{
+    padding-left: 40px;
+    padding-bottom: 60px;
+    margin-right: 160px;
+    margin-top: 0;
+    animation:lightSpeedInRight;
+    animation-duration: 3s;
+}
+
+
+/* -------------------------------- Services ---------------------- */
+
+.services{
+    text-transform: uppercase;
+    font-weight:bolder;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    color: #000000;
+    text-decoration: underline;
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+img{
+    margin-left:120px;
+}
+h4{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.btn1{
+    border-radius: 3px;
+    border: #3ea8e6;
+    color: white;
+    background-color: #417BBE;
+    width: 130px;
+    height: 5vh;
+    margin-left:120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* -------------------------------- Global Workspace ---------------------- */
+
+.global{
+    text-align: center;
+    font-size: larger;
+    margin-top: 70px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.map-image{
+    margin-top: 40px;
+}
+
+
+/* -------------------------------- Testimonials ---------------------- */
+
+.testimonial{
+    text-align: center;
+    font-size: larger;
+    margin-top: 70px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.addicon::before{
+    content: "\f10d";
+    font-family: FontAwesome;
+    font-size:70px;
+    color:#3ea8e6;
+    margin-left: 250px;
+}
+
+.aftericon::after{
+    content: "\f10e";
+    font-family: FontAwesome;
+    font-size:70px;
+    color:#3ea8e6;
+    margin-left: 650px;
+    margin-bottom: 60px;
+}
+
+.test-info {
+    
+    border: 1px solid #FFFF;
+    background:lightgrey;
+    width: 640px;
+    height: 45vh;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.name {
+    color:#262626;
+    font-family: 'Nunito,Arial,sans-serif';
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.job {
+   color: #417Cbe;
+    font-size: 15px;
+}
+
+.para {
+   padding-left: 30px;
+   padding-right: 30px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+/* -------------------------------- Footer ---------------------- */
+
+
+.footer{
+    margin-bottom: 20px;
+    margin-top: 140px;
+    background:  #417BBE;
+    width: 100%;
+    height: 55vh;
+    padding-top: 20px;
+}
+.phicon::before{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+    content: "\f095";
+    font-family: FontAwesome;
+    font-size:80px;
+    color:#3ea8e6;
+    margin-left: 150px;
+}
+
+.get{
+    text-align: center;
+    color: white;
+    
+}
+
+.phone{
+    color: white;
+    font-size: 18px;
+   text-align: center;
+    margin-bottom: 20px;
+}
+
+.email{
+    text-align: center;
+    color: #000000;
+    
+}
+
+.arrow::before{
+    
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+    content: "\f124";
+    font-family: FontAwesome;
+    font-size:80px;
+    color:#3ea8e6;
+    margin-left: 150px;
+}
+.address{
+    color: white;
+}
+.details{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+
+
+.envelope::before{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+    content: "\f0e0";
+    font-family: FontAwesome;
+    font-size:80px;
+    color:#3ea8e6;
+    margin-left: 150px;
+}
+
+.submit{
+    color: white;
+}
+.interest{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+.fbtn{
+    background-color: #3ea8e6;
+    border: #0394fc;
+    margin-top: 20px;
+    width: 170px;
+    height: 6vh;
+    border-radius:4px;
+}
+
+/* -------------------------------- Media Queries ----------------------------------- */
+
+@media(max-width:768px){
+
+    .navbar-brand img{    
+        margin-top: 6px;
+        width: 45%;
+       margin-left: 20px;
+       margin-right: 80px;  
+    }
+    
+
+    .btn{
+        border: #3ea8e6;
+         margin-left: 150px;
+        left: 100px;
+         color:white;
+         margin-left: 140px;
+         width: 150px;
+         height: 5vh;
+         background-color: #5BC0DE;
+     }
+
+     .carousel-caption{
+        top: 10px;
+     }
+     .carousel-caption .slider-heading{
+        font-size: 17px;
+     }
+     .carousel-caption .slider-para{
+        padding: 10px 15px;
+        font-size: 15px;
+     }
+    
+    
+   
+
+    
+    
+    /* ------------------- About US ------------ */
+
+    .about-section{
+        margin-top: 30px;
+       display: block; 
+
+    }
+    .heading{
+        margin-bottom: 25px;
+        margin-left: 100px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000000;
+        text-decoration: underline;
+        font-size: 26px;
+    }
+    
+    .about-para{
+      margin-left: 10px;
+       text-align: center;
+        margin-top: 25px;
+        font-size: 13px;
+        color:#6A6A6A;
+        width: 350px;
+        height: auto;
+    }
+    
+    .side-image{
+        margin-left: 9px;
+        width: 90%;
+    }
+
+          /* ------------------- Services ------------ */
+
+    .services{
+        display: block;
+        margin-right: 10px;
+        text-transform: uppercase;
+        font-weight:bolder;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5px;
+        text-align: center;
+        color: #000000;
+        text-decoration: underline;
+        margin-bottom: 20px;
+    }
+    img{
+        margin-top: 10px;
+        margin-left:150px;
+        width: 20%;
+    }
+    h4{
+        font-size: 25px;
+        margin-right:5px;
+        margin-top: 9px;
+        margin-bottom: 20px;
+    }
+    p{
+        text-align: center;
+        color: #000000;
+        font-size: 15px;
+        font-weight: 400;
+        margin-right: auto;
+       margin-top: -10px;
+    }
+    
+    .btn1{
+        
+        border-radius: 3px;
+        border: #3ea8e6;
+        color: white;
+        background-color: #417BBE;
+        width: 100px;
+        height: 4vh;
+        margin-left:145px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+       /* ------------------- Global ------------ */
+
+    .global{
+        text-align: center;
+        font-size: 20xp;
+        margin-top: 60px;
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .map-image{
+        width: 65%;
+        margin-top: 40px;
+        margin-left: 7px;
+    }
+    
+
+        /* ------------------- Testimonial ------------ */
+
+    .testimonial{
+        text-align: center;
+        font-size: larger;
+        margin-top: 50px;
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-weight: bold;
+    
+    }
+    
+    .addicon::before{
+        content: "\f10d";
+        font-family: FontAwesome;
+        font-size:20px;
+        color:#3ea8e6;
+        margin-left: 20px;
+    }
+    
+    .aftericon::after{
+        content: "\f10e";
+        font-family: FontAwesome;
+        font-size:20px;
+        color:#3ea8e6;
+        margin-top: 10px;
+        margin-left: 320px;
+        margin-bottom: 20px;
+    }
+    
+    .test-info {
+        
+        border: 1px solid #FFFF;
+        background:lightgrey;
+        width: 350px;
+        height: 35vh;
+        margin-left:10px;
+        text-align: center;
+        padding-top: 2px;
+        font-size: 14px;
+    }
+    
+    .name {
+        color:#262626;
+        font-family: 'Nunito,Arial,sans-serif';
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        
+    }
+    
+    .job {
+       color: #417Cbe;
+        font-size: 14px;
+    }
+    
+    .para {
+       padding-left: 20px;
+       padding-right: 20px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    
+
+       /* ------------------- Footer ------------ */
+
+    .footer{
+        margin-bottom: 20px;
+        margin-top: 60px;
+        background:  #417BBE;
+        width: 340px;
+        height: 115vh;
+        padding-top: 30px;
+    }
+    .phicon::before{
+        
+        padding: 15px 20px;
+        background-color: white;
+        content: "\f095";
+        font-family: FontAwesome;
+        font-size:60px;
+        color:#3ea8e6;
+        margin-left: 140px;
+    }
+    
+    .get{
+        text-align: center;
+        color: white;
+        margin-left: 10px;
+        margin-bottom: 18px;
+    }
+    
+    .phone{
+        color: white;
+        font-size: 15px;
+       text-align: center;
+        margin-bottom: 30px;
+        
+    }
+    
+    .email{
+        text-align: center;
+        color: #000000;
+        
+    }
+    
+
+    
+    .arrow::before{
+        padding: 15px 20px;
+        background-color: white;
+        content: "\f124";
+        font-family: FontAwesome;
+        font-size:70px;
+        color:#3ea8e6;
+        margin-left: 140px;
+    }   
+    .address{
+        text-align: center;
+        color: white;
+        margin-left: 10px;
+        margin-bottom: 18px;
+    }
+    .details{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    
+    .envelope::before{
+        padding: 15px 20px;
+        background-color: white;
+        content: "\f0e0";
+        font-family: FontAwesome;
+        font-size:70px;
+        color:#3ea8e6;
+        margin-left: 140px;
+        margin-bottom: 10px;
+    }
+    
+    .submit{
+        
+        margin-top: 15px;
+        color: white;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    .interest{
+        font-size: 15px;
+        text-align: center;
+        color: white;
+    }
+    .fbtn{
+        background-color: #3ea8e6;
+        border: #0394fc;
+        margin-top: 25px;
+        width: 150px;
+        height: 4vh;
+        border-radius:4px;
+    }
+}
